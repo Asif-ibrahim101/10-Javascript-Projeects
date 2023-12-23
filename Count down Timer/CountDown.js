@@ -25,11 +25,11 @@ let Time = setInterval(()=> {
     let second = Math.floor((diffrence_time % (1000 * 60 * 60 * 24) / 1000));
 
     //showing the time in the webpage
-    Months.innerHTML = month + " " + "Months";
-    Days.innerHTML = Day + " " +  "Days";
-    Hours.innerHTML = Hour + " " +  "Hours";
-    Minutes.innerHTML = Minute + " " + "Minutes";
-    Secconds.innerHTML = second + " " + "Seconds";
+    Months.innerHTML = month;
+    Days.innerHTML = Day;
+    Hours.innerHTML = Hour;
+    Minutes.innerHTML = Minute;
+    Secconds.innerHTML = second;
 
     if(diffrence_time < 0) {
         clearInterval(Time);
