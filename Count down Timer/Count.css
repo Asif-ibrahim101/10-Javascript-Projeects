@@ -48,3 +48,9 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.timers .timer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
